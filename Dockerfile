@@ -1,7 +1,7 @@
 FROM node:6-alpine
 MAINTAINER lcatallo <luca.catallo.293@gmail.com>
 
-ARG MAILTRAIN_VERSION=1.20.0
+ARG MAILTRAIN_VERSION=1.15.0
 
 RUN set -e && apk add --no-cache curl \
     && cd /tmp \
